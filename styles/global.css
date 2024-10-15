@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --brand-color: #EF5F4C;
+  --bg-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #ffffff8f;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+  --text: 1.6rem/1.5 var(--poppins);
+  --text-lg: bold 3.2rem/125% var(--poppins);
+  --text-md: 1.4rem/175% var(--poppins);
+  --text-sm: 1.2rem/175% var(--poppins);  
+  --poppins: 'Poppins', sans-serif;
+}
+
+body {
+  font: var(--text);
+  background: var(--bg-color);
+  color: var(--text-color-secondary);
+}
