@@ -5,6 +5,8 @@
 }
 
 :root {
+  font-size: 62.5%;
+
   --brand-color: #EF5F4C;
   --bg-color: #FFFFFF;
   --surface-color: #F5F5F5;
@@ -13,10 +15,10 @@
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
 
-  --text: 1.6rem/1.5 var(--poppins);
-  --text-lg: bold 3.2rem/125% var(--poppins);
-  --text-md: 1.4rem/175% var(--poppins);
-  --text-sm: 1.2rem/175% var(--poppins);  
+  --text: 16px/1.5 var(--poppins);
+  --text-lg: bold 32px/125% var(--poppins);
+  --text-md: 14px/175% var(--poppins);
+  --text-sm: 12px/175% var(--poppins);  
   --poppins: 'Poppins', sans-serif;
 }
 
@@ -24,6 +26,16 @@ body {
   font: var(--text);
   background: var(--bg-color);
   color: var(--text-color-secondary);
+}
+
+.bg-container {
+  background: var(--surface-color);
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 32px;
 }
 
 a {
