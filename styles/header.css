@@ -44,3 +44,23 @@ header .container {
   align-items: center;
   gap: 0.8rem;
 }
+
+@media (width <= 56em) {
+  header .container {
+    display: inline-block;
+  }
+
+  #profile > div {
+    max-width: 29.6rem;
+  }
+
+  #profile {
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+  }
+
+  #profile img {
+    width: 12rem;
+    height: 12rem;
+  }
+}
