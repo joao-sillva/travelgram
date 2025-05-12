@@ -47,3 +47,11 @@ a:hover {
   margin-inline: auto;
   padding-inline: 3.2rem;
 }
+
+@media (width <= 80em) {
+  .container {
+    --max-width: 1280px;
+    width: min(--max-width - 100%);
+    padding-inline: 1.4rem;
+  }
+}
