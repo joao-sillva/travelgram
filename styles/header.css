@@ -1,6 +1,6 @@
 header {
   font: var(--text-md);
-  padding-block: 32px;
+  padding-block: 3.2rem;
 }
 
 header .container {
@@ -11,16 +11,16 @@ header .container {
 
 #profile {
   display: flex;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 #profile > div {
-  max-width: 384px;
+  max-width: 38.4rem;
 }
 
 #profile img {
-  width: 176px;
-  height: 176px;
+  width: 17.6rem;
+  height: 17.6rem;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -28,19 +28,19 @@ header .container {
 #profile h1 {
   font: var(--text-lg);
   color: var(--text-color-primary);
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 #info {
   list-style: none;
-  width: 280px;
+  width: 28rem;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 #info li {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.8rem;
 }

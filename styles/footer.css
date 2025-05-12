@@ -1,8 +1,8 @@
 footer {
   display: flex;
-  gap: 24px;
-  padding-block: 24px;
-  font: 14px/150% var(--font-family);
+  gap: 2.4rem;
+  padding-block: 2.4rem;
+  font: 1.4rem/150% var(--font-family);
 }
 
 footer span:nth-child(1) {
